@@ -1,0 +1,41 @@
+.carouselWrap{
+	width: 100%;
+}
+.carousel
+{
+overflow:hidden;
+width:100%;
+
+ /*top bottom 50px nd left nd right auto to get center of div*/
+position: relative;
+}
+
+.carousel img
+{
+	max-width:100%; 
+}
+
+
+.carousel ul li
+{
+
+float: left;
+/*width:960px;*/
+ background:  #b7d7e8;
+text-align: center;
+height:460px;
+
+}
+
+.carousel ul li img{
+	max-width: 100%;
+
+	min-height: 440px;
+}
+.carauselUl li
+{
+	color:black;
+	font:20px;
+	text-decoration: none;
+}
+

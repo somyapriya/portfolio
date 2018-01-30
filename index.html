@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Somya</title>
+<meta charset="utf-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="I'm Somya, Web designer/front end developer based in Pune, India... I'm passionate about building simple, clean Websites and User Interfaces that are easy to use and beautiful to look at. I do Web Design including , beautiful website design, W3C Valid HTML, W3C Valid CSS, iPhone/iPad/Android UI Design and anything that's creative.">
+<meta name="keywords" content="web design, design, website, development, bootstrap,  portfolio, front end development, HTML, CSS, web designer, web developer">
+<meta name="Author" content="somya95priya.com">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular-route.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/resetCss.css">
+<link rel="stylesheet" type="text/css" href="index.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body ng-app="myApp">
+    <div class="main" ng-controller="MainCtrl" > 
+            <section class="homePage" id="homePage">
+                <div class="home container-fluid">
+                        <div class="row">
+                            <div id="mySidenav" class="sidenav">
+                                <a href="javascript:void(0)" class="closeNav">&times;</a>
+                                <a href ng-click="scrollTo('homePage')">Home<img src="pic/home.png" class="icon1"></a>
+                                <a href ng-click="scrollTo('about')" >About<img src="pic/about.png" class="icon1"></a>
+                                <a href ng-click="scrollTo('works')">Works<img src="pic/works.png" class="icon1"></a>
+                                <a href ng-click="scrollTo('contacts')" >Contact<img src="pic/contact.png" class="icon1"></a>
+                            </div>
+
+                            <span class="openNav">&#9776;</span>
+                        </div>
+                     <div class="row headerText">
+                            <div class="col-md-12 col-xs-12 col-sm-12 text-center animation-element slide-up">
+                                 <div class="name headerDiv">I'M <strong class="myname"> SOMYA</strong></div> 
+                                <div class="intro1  "><strong> Web UI/UX Designer</strong> and<strong> Front End Developer</strong> Based in Pune, India.</div>
+                                <div class="intro2">Take a look at some of my works, and if you like them, feel free to <strong>contact me</strong>.</div> 
+                                <div class="intro2 ">Let’s create something <strong class="wow blink_me">WOW!</strong></div>
+                                <button class="btn btn1 btn-div memore"><a href="index.html#about">KNOW ME MORE</a></button>
+                                <div class="bounce">
+                                    <i class="fa fa-angle-double-down arrow"></i>
+                                </div>
+                             </div>
+           
+                     </div>
+                </div>
+            </section>
+            <section class="about"  id="about">
+                <div class="aboutPage container-fluid">
+                    <div class="row">
+                        <div class="aboutHeader text-center fa-5x animation-element slide-up">ABOUT</div>
+                    </div>
+                    <div class="col-md-5 col-xs-3 col-sm-5"></div>
+                    <div class="col-md-7 col-sm-7 col-xs-9"> 
+                        <ul class= "subHead text-center" >
+                            <li><a class="aboutList text-center  animation-element slide-up " href="#/bio">BIO</a></li>
+                            <li><a class=" aboutList text-center  animation-element slide-up " href="#/skills">SKILLS</a></li>
+                        </ul>
+                    </div>
+                    <div ng-view></div>
+                </div>
+            </section>
+            <section class="works" id="works">
+                <div class=" work container-fluid">
+                    <div class="workHeader text-center animation-element slide-up">WORKS</div>
+                    <div class="col-md-1 col-xs-0 col-sm-1"></div>
+                    <div id="workContent" class="col-md-11 col-sm-11 col-xs-12 animation-element slide-left"></div>
+                </div>
+            </section>
+            <section class="contacts" id="contacts">
+                <div class="contact container-fluid">
+                    <div class="row ">
+                        <div class="col-md-12  col-xs-12 col-sm-12 text-center footer ">
+                            <div class="want animation-element slide-left"><strong> Want to work with me?</strong>
+                            </div>
+                            <div class="mail  animation-element slide-left ">  
+                                <a href="mailto:www.somya95priya@gmail.com">
+                                <span class="glyphicon glyphicon-envelope mailimg"><a href="mailto:www.somya95priya@gmail.com">somya95priya@gmail.com</a></span></a>
+                            </div>
+                            <div class="phone  animation-element slide-left"><span class="glyphicon glyphicon-phone"></span>+91-9043145003</div>
+                            <div class="skype  animation-element slide-left"><span class="fa fa-skype skypeLink"></span>somya95priya</div>
+                            <div class="socialNetworks animation-element slide-left">
+                                <span  class="linked"> <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fa fa-linkedin"></i></a></span>
+                                <span class="fb"> <a href="https://www.facebook.com/feed/" target="_blank"><i class="fa fa-facebook"></i></a></span>
+                                <span class="google"> <a  href="https://plus.google.com/u/0/" target="_blank"><i class="fa fa-google-plus"></i></a></span>
+                            </div>
+                            <button class=" btn2 btn12 btn-div2 memore2  animation-element slide-left" href="mailto:www.somya95priya@gmail.com"><a href="mailto:www.somya95priya@gmail.com">GET IN TOUCH</a></button> <div  class="copyright  animation-element slide-left">©Copyright 2017 Somya personal portfolio</div> 
+                         </div>
+                    </div>
+                </div>
+            </section>
+    </div>
+
+</body>
+<script src="js/index.js">
+</script>
+<script src="js/skills.js">
+</script><!-- 
+<script>
+var app = angular.module("myApp", ["ngRoute"]);
+app.config(function($routeProvider) {
+    $routeProvider
+    .when("/", {
+        templateUrl : "Bio.html"
+    })
+    //  .when("/BIO", {
+    //     templateUrl : "Bio.html"
+    // })
+    .when("/SKILLS", {
+        templateUrl : "skills.html"
+    });
+    
+   
+});
+</script> -->
+</html>
+
+
+
+<!-- <script src="jquery-3.1.1.min.js"></script> -->
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular-route.js"></script> -->

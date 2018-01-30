@@ -1,0 +1,113 @@
+{
+	"products": [{
+			"work": {
+				"id": "1",
+				"name": "mfrp",
+				"description": "E-commerce Responsive Web Design application for desktop, tablet and mobile view which provides online market for Fashion.",
+				"url": "./pic/image1.jpg"
+			}
+		},
+		{
+			"work": {
+				"id": "2",
+				"name": "fuctionality",
+				"description": "Accordion, carousal, Slider Menu, Adding items to cart etc.",
+				"url": "./pic/image3.jpg"
+			}
+		},
+		{
+			"work": {
+				"id": "3",
+				"name": "fetching json",
+				"description": "Fetching data from JSON.",
+				"url": "./pic/image2.jpg"
+			}
+		},
+		{
+			"work": {
+				"id": "4",
+				"name": "carausel",
+				"description": "Responsive carausel.",
+				"url": "./pic/image4.jpg"
+			}
+		},
+		{
+			"work": {
+				"id": "5",
+				"name": "fetching json",
+				"description": "Fetching data from JSON.",
+				"url": "./pic/image5.png "
+			}
+		},
+		{
+			"work": {
+				"id": "6",
+				"name": "carausel",
+				"description": "Responsive carausel.",
+				"url": "./pic/image12.jpg"
+			}
+		},{
+			"work": {
+				"id": "7",
+				"name": "fetching json",
+				"description": "Fetching data from JSON.",
+				"url": "./pic/image7.jpg"
+			}
+		},
+		{
+			"work": {
+				"id": "8",
+				"name": "carausel",
+				"description": "Responsive carausel.",
+				"url": "./pic/image8.jpg"
+			}
+		},{
+			"work": {
+				"id": "9",
+				"name": "fetching json",
+				"description": "Fetching data from JSON.",
+				"url": "./pic/image9.png"
+			}
+		},
+		{
+			"work": {
+				"id": "10",
+				"name": "carausel",
+				"description": "Responsive carausel.",
+				"url": "./pic/image10.jpg"
+			}
+		},{
+			"work": {
+				"id": "11",
+				"name": "fetching json",
+				"description": "Fetching data from JSON.",
+				"url": "./pic/image11.jpg"
+			}
+		},
+		{
+			"work": {
+				"id": "12",
+				"name": "carausel",
+				"description": "Responsive carausel.",
+				"url": "./pic/image6.jpg"
+			}
+		},
+			{
+			"work": {
+				"id": "13",
+				"name": "carausel",
+				"description": "Responsive carausel.",
+				"url": "./pic/image13.jpg"
+			}
+		},
+
+		{
+			"work": {
+				"id": "14",
+				"name": "student Login portal",
+				"description": "Student Login ",
+				"url": "./pic/image14.jpg"
+			}
+		}
+	]
+}

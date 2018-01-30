@@ -1,0 +1,41 @@
+{
+		"work1": {
+	"id":"work1",
+	"name":"mfrp",
+	"description":"E-commerce Responsive Web Design application for desktop, tablet and mobile view which provides online market for Fashion.",
+	"url":""
+		},
+	},
+	
+		"work2":{
+	"id":"work2",
+	"name":"fuctionality",
+	"description":"Accordion, carousal, Slider Menu, Adding items to cart etc.",
+	"url":""
+		},
+	},
+	
+		"work3":{
+	"id":"work3",
+	"name":"fetching json",
+	"description":"Fetching data from JSON.",
+	"url":"",
+		},
+	},
+	
+		"work4":{
+	"id":"work4",
+	"name":"carausel",
+	"description":"Responsive carausel",
+	"url":"",
+		},
+	},
+	
+		"work5":{
+	"id":"work4",
+	"name":"student Login portal",
+	"description":"Student Login ",
+	"url":"",
+		},
+
+}
